@@ -56,17 +56,53 @@ body {
 
 .banner {
     display: grid;
-    grid-auto-columns: 1;
+    grid-auto-columns: 1fr;
     grid-auto-rows: 1fr;
     grid-template-columns: 1fr;
-    grid-template-rows: 0.4 1.6fr;
+    grid-template-rows: 0.4fr 1.6fr;
     gap: 0 0;
     grid-template-areas: "bannerheader"
                          "bannerpic";
 }
 
-.bannerheader {
-    justify-content: center;
+.container-1 {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0 0;
+    grid-template-areas: "text1 noatapic";
+}
+
+.container-2 {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0 0;
+    grid-template-areas: "text2 harukopic";
+}
+
+.container-3 {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0 0;
+    grid-template-areas: "text3 mamimipic";
+}
+
+.container-4 {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0 0;
+    grid-template-areas: "text4 cantipic";
 }
 
 .footercontainer {

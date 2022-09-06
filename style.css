@@ -63,6 +63,18 @@ body {
     gap: 0 0;
     grid-template-areas: "bannerheader"
                          "bannerpic";
+    justify-items: center;
+    align-items: center;
+}
+
+.bannerhead a {
+    font-family: "alien";
+    font-size: 2.5rem;
+}
+
+.body a {
+    font-family: "alien";
+    font-size: 2.5rem;
 }
 
 .container-1 {
@@ -72,7 +84,9 @@ body {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     gap: 0 0;
-    grid-template-areas: "text1 noatapic";
+    grid-template-areas: "noatapic text1";
+    justify-items: center;
+    align-items: center;
 }
 
 .container-2 {
@@ -83,6 +97,8 @@ body {
     grid-template-rows: 1fr;
     gap: 0 0;
     grid-template-areas: "text2 harukopic";
+    justify-items: center;
+    align-items: center;
 }
 
 .container-3 {
@@ -93,6 +109,8 @@ body {
     grid-template-rows: 1fr;
     gap: 0 0;
     grid-template-areas: "text3 mamimipic";
+    justify-items: center;
+    align-items: center;
 }
 
 .container-4 {
@@ -103,6 +121,8 @@ body {
     grid-template-rows: 1fr;
     gap: 0 0;
     grid-template-areas: "text4 cantipic";
+    justify-items: center;
+    align-items: center;
 }
 
 .footercontainer {
